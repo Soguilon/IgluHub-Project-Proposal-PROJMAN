@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IgluHub — PROJMAN Presentation</title>
+<link href="assets/logo.png" rel="icon"/>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="deck" id="deck">
+<!-- PROGRESS BAR -->
+<div class="progress-rail"><div class="progress-fill" id="progressFill"></div></div>
+<!-- SLIDES -->
+<div class="slides" id="slides">
+<section class="slide slide--title" data-title="Title"><div class="bg-grid"></div><div class="title-content">
+<img alt="IGLÚ logo" class="title-logo" src="assets/logo.png"/>
+<p class="eyebrow">PROJECT MANAGEMENT INFORMATION SYSTEMS · SECTION I302</p>
+<h1>Development of a Web-Based Multi-Branch Store Management Information System for IGLÚ</h1>
+<p class="subtitle">Sales and Employee Monitoring · Barangay Salapungan, Angeles City</p>
+<p class="presentation-hint">PROJECT PROPOSAL PRESENTATION <span aria-hidden="true">·</span> Use ← → to navigate</p>
+<div class="title-meta"><div class="meta-block"><span class="meta-label">Prepared For</span><span class="meta-value">Jan Catherine S. Santiago</span></div><div class="meta-block"><span class="meta-label">Project Team</span><span class="meta-value">Soguilon · Fajardo · Garcia · Ignacio · Recapor</span></div></div>
+</div></section>
+<section class="slide" data-title="The Problem"><header class="slide-head"><span class="slide-kicker">02</span><h2>The Problem</h2><span class="part-tag">Why IGLÚ needs more organized multi-branch operational records</span></header>
+<p class="lead-statement"><strong>Core problem —</strong> Employee, attendance, cashier, and branch information maintained separately can cause delays, inconsistent records, and difficulty monitoring operations. Limited access controls may also expose sales and attendance data to unauthorized changes.</p>
+<div class="content-grid cols-3 numbered-grid">
+<div class="num-card"><span class="num">1</span><h4>Employee Records</h4><p>Difficulty organizing and accessing employee information across branches.</p></div>
+<div class="num-card"><span class="num">2</span><h4>Attendance</h4><p>Inconsistent recording and monitoring of time-in, time-out, absences, and tardiness.</p></div>
+<div class="num-card"><span class="num">3</span><h4>Cashier Operations</h4><p>Difficulty organizing and monitoring cashier information and sales transactions.</p></div>
+<div class="num-card"><span class="num">4</span><h4>Branch Monitoring</h4><p>Limited centralized access to branch-level operational information.</p></div>
+<div class="num-card"><span class="num">5</span><h4>Data Consistency</h4><p>Possibility of inconsistent records and delays in updating information.</p></div>
+<div class="num-card"><span class="num">6</span><h4>Unauthorized Changes</h4><p>Sales and attendance records may be vulnerable without sufficient access controls.</p></div>
+</div></section>
+<section class="slide" data-title="Proposed Solution"><header class="slide-head"><span class="slide-kicker">03</span><h2>Proposed Solution</h2><span class="part-tag">IgluHub — centralized information management for participating IGLÚ branches</span></header>
+<p class="lead-line"><strong>IgluHub</strong> is a proposed web-based Multi-Branch Store Management Information System designed to centralize employee records, attendance monitoring, cashier-related records, and branch information.</p>
+<div class="solution-flow">
+<div class="solution-step"><span class="solution-icon">01</span><h3>Employees</h3><p>Record attendance and enter cashier transactions through permitted employee functions.</p></div>
+<div class="flow-arrow">→</div>
+<div class="solution-step solution-step--main"><span class="solution-icon">02</span><h3>IgluHub</h3><p>Stores and validates operational records in a centralized database with role-based access and audit logging.</p></div>
+<div class="flow-arrow">→</div>
+<div class="solution-step"><span class="solution-icon">03</span><h3>Management</h3><p>Reviews employee, attendance, sales, and branch information through administrative features.</p></div>
+</div>
+<div class="content-grid cols-2 solution-notes">
+<div class="panel panel--accent"><h3>Included in the proposed scope</h3><ul class="bullet-list"><li>Employee records and branch assignments.</li><li>Attendance time-in/time-out and history.</li><li>Cashier transactions, totals, discounts, and payment recording.</li><li>Branch dashboards, reports, access controls, and audit logs.</li></ul></div>
+<div class="panel"><h3>Important project limitations</h3><ul class="bullet-list"><li>Internet is required for normal access and synchronization.</li><li>Cash and GCash details are recorded; payments are not directly processed.</li><li>Payroll, inventory purchasing, supplier management, and accounting are excluded.</li></ul></div>
+</div></section>
+<section class="slide feature-slide" data-title="Proposed Solution — Administrator"><header class="slide-head"><span class="slide-kicker">04</span><h2>Proposed Solution: Administrator Features</h2><span class="part-tag">Actual IgluHub interface mockups · Click any image to zoom</span></header>
+<div class="feature-grid feature-grid--three"><article class="feature-card"><div class="image-frame feature-image" data-caption="Secure Login" data-gallery="all" data-zoomable=""><img alt="IgluHub administrator and employee login interface" loading="lazy" src="assets/iglu_login_for_admin_employee.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Secure Login</span></div><div class="feature-copy"><h3>Secure Login</h3><p>Individual accounts and role-based permissions help restrict system functions and records to authorized users.</p></div></article><article class="feature-card"><div class="image-frame feature-image" data-caption="Branch Management" data-gallery="all" data-zoomable=""><img alt="IgluHub branch management interface" loading="lazy" src="assets/iglu_admin_branch_management.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Branch Management</span></div><div class="feature-copy"><h3>Branch Management</h3><p>Authorized administrators can maintain branch information and associate employees with the appropriate branch.</p></div></article><article class="feature-card"><div class="image-frame feature-image" data-caption="Employee &amp; Attendance Monitoring" data-gallery="all" data-zoomable=""><img alt="IgluHub administrator employee and attendance management interface" loading="lazy" src="assets/iglu_admin_employee_or_attendance_management.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Employee &amp; Attendance Monitoring</span></div><div class="feature-copy"><h3>Employee &amp; Attendance Monitoring</h3><p>Management can organize employee records and review attendance history, including time-in, time-out, absences, and tardiness.</p></div></article></div>
+<p class="feature-takeaway"><strong>How this helps IGLÚ:</strong> Gives authorized management a more organized way to maintain branch and employee information and monitor attendance across participating branches.</p>
+</section>
+<section class="slide feature-slide" data-title="Proposed Solution — Employee"><header class="slide-head"><span class="slide-kicker">05</span><h2>Proposed Solution: Employee Features</h2><span class="part-tag">Actual IgluHub interface mockups · Click any image to zoom</span></header>
+<div class="feature-grid feature-grid--two"><article class="feature-card"><div class="image-frame feature-image" data-caption="Employee Attendance" data-gallery="all" data-zoomable=""><img alt="IgluHub employee attendance time-in and time-out interface" loading="lazy" src="assets/iglu_employee_attendance_timein_and_timeout.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Employee Attendance</span></div><div class="feature-copy"><h3>Employee Attendance</h3><p>Employees can record time-in and time-out and review their own attendance history, subject to permissions.</p></div></article><article class="feature-card"><div class="image-frame feature-image" data-caption="Cashier Operations" data-gallery="all" data-zoomable=""><img alt="IgluHub employee cashier transaction interface" loading="lazy" src="assets/iglu_emplyee_cashier.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Cashier Operations</span></div><div class="feature-copy"><h3>Cashier Operations</h3><p>Cashiers can enter multi-item transactions, review totals, record cash or GCash details, and verify transaction information before submission.</p></div></article></div>
+<div class="feature-callout"><h3>Transaction accountability</h3><p>Sensitive transaction edits or voids require manager authorization. Approved corrections and voids are recorded in the audit log rather than silently replacing the original record.</p></div>
+<p class="feature-takeaway"><strong>How this helps IGLÚ:</strong> Supports consistent attendance recording and more organized cashier transactions while keeping sensitive corrections under management control.</p>
+</section>
+<section class="slide slide--image" data-title="Project Schedule — WBS"><header class="slide-head"><span class="slide-kicker">06</span><h2>Project Schedule: Work Breakdown Structure</h2><span class="part-tag">Major project activities and deliverables</span></header>
+<div class="schedule-image"><div class="image-frame" data-caption="IgluHub Work Breakdown Structure — Levels 1.0 to 1.7" data-gallery="all" data-zoomable=""><img alt="IgluHub Work Breakdown Structure" loading="lazy" src="assets/wbs.png"/><span class="image-hint">Click to zoom</span></div></div>
+<p class="schedule-note">The WBS organizes the project into manageable phases and work packages, providing the structure used to plan and track the proposed implementation.</p>
+</section>
+<section class="slide slide--image" data-title="Project Schedule — Proposal Gantt"><header class="slide-head"><span class="slide-kicker">07</span><h2>Project Schedule: Proposal Documentation</h2><span class="part-tag">Figure A · Actual ClickUp progress tracker</span></header>
+<div class="schedule-image schedule-image--wide"><div class="image-frame" data-caption="Figure A — Proposal Documentation Schedule. Actual ClickUp tracking of proposal writing and revision." data-gallery="all" data-zoomable=""><img alt="Gantt chart showing proposal documentation schedule" loading="lazy" src="assets/gantt-a.png"/><span class="image-hint">Click to zoom</span></div></div>
+<p class="schedule-note"><strong>Important distinction:</strong> Figure A documents the group's actual proposal-writing and revision progress. It is not the system implementation timeline.</p>
+</section>
+<section class="slide slide--image" data-title="Project Schedule — Implementation Gantt"><header class="slide-head"><span class="slide-kicker">08</span><h2>Project Schedule: Proposed System Implementation</h2><span class="part-tag">Figure B · Proposed schedule aligned with WBS phases 1.1–1.7</span></header>
+<div class="schedule-image schedule-image--wide"><div class="image-frame" data-caption="Figure B — Proposed IgluHub System Implementation Schedule, aligned with WBS phases 1.1–1.7." data-gallery="all" data-zoomable=""><img alt="Gantt chart showing proposed IgluHub system implementation schedule" loading="lazy" src="assets/gantt-b.png"/><span class="image-hint">Click to zoom</span></div></div>
+<p class="schedule-note">Figure B presents the proposed system implementation schedule. It is a plan, not evidence of completed implementation work.</p>
+</section>
+<section class="slide budget-slide" data-title="Budget"><header class="slide-head"><span class="slide-kicker">09</span><h2>Estimated Project Budget</h2><span class="part-tag">Preliminary planning estimate · Philippine pesos (PHP)</span></header>
+<div class="budget-layout budget-layout--revised"><div class="table-wrap"><table class="data-table"><thead><tr><th>Expense</th><th>Basis</th><th class="num-col">Cost</th></tr></thead><tbody>
+<tr><td>Internet &amp; mobile data</td><td>Backup connectivity</td><td class="num-col">₱300</td></tr><tr><td>Cloud hosting</td><td>Assumed free tier</td><td class="num-col">₱0</td></tr><tr><td>Cloud database</td><td>Assumed free tier</td><td class="num-col">₱0</td></tr><tr><td>Domain name</td><td>Optional</td><td class="num-col">₱800</td></tr><tr><td>Development software</td><td>Free tools</td><td class="num-col">₱0</td></tr><tr><td>Testing &amp; printing</td><td>Review and testing documents</td><td class="num-col">₱500</td></tr><tr><td>Transportation</td><td>Client coordination and pilot testing</td><td class="num-col">₱1,000</td></tr><tr><td>Miscellaneous</td><td>Communication and supplies</td><td class="num-col">₱500</td></tr><tr class="subtotal-row"><td colspan="2">Subtotal</td><td class="num-col">₱3,100</td></tr><tr class="subtotal-row"><td colspan="2">Contingency (10%)</td><td class="num-col">₱310</td></tr><tr class="total-row"><td colspan="2">Total Estimated Budget</td><td class="num-col">₱3,410</td></tr></tbody></table></div>
+<div class="budget-side"><div class="budget-total"><span>Total Estimated Budget</span><strong>₱3,410</strong><small>₱3,100 subtotal + ₱310 contingency</small></div>
+<div class="panel"><h3>Resource assumptions</h3><ul class="bullet-list"><li>Use existing laptops, desktops, and smartphones.</li><li>Prioritize free development tools and free-tier hosting/database services.</li><li>Estimate excludes paid developer labor and recurring service charges.</li><li>Paid services require updated estimates and adviser/client approval.</li></ul></div>
+<div class="panel"><h3>Budget control</h3><ul class="bullet-list"><li>Record expenses and retain receipts or proof of payment.</li><li>Review proposed expenses before purchase.</li><li>Use contingency only for documented, project-related needs.</li></ul></div>
+</div></div></section>
+<section class="slide risk-detail-slide" data-title="Possible Risks (1/3)"><header class="slide-head"><span class="slide-kicker">10</span><h2>Possible Risks and Proposed Solutions (1/3)</h2><span class="part-tag">Risk assessment and mitigation measures from the project proposal</span></header><div class="risk-detail-grid"><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">01</span><h3>Inaccurate or incomplete requirements</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Business processes may be misunderstood.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Consult IGLÚ representatives and validate employee, attendance, pricing, discount, and transaction rules.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">02</span><h3>Scope creep</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Additional features may exceed the approved scope and schedule.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Maintain the approved scope. Record additional requests as possible future enhancements.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">03</span><h3>Schedule delays</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Academic and personal responsibilities may affect deadlines.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Use ClickUp to assign tasks, set deadlines, monitor progress, and hold regular meetings.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">04</span><h3>Technical difficulties</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Issues may occur in databases, access controls, calculations, or responsive design.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Plan early, develop core features first, test incrementally, and use GitHub for version control.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">05</span><h3>Internet connectivity issues</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Poor connection may prevent system access or saving records.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Use stable internet and mobile data as backup. Offline transaction processing is excluded.</p></div></article></div></section><section class="slide risk-detail-slide" data-title="Possible Risks (2/3)"><header class="slide-head"><span class="slide-kicker">11</span><h2>Possible Risks and Proposed Solutions (2/3)</h2><span class="part-tag">Risk assessment and mitigation measures from the project proposal</span></header><div class="risk-detail-grid"><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">06</span><h3>Data entry errors</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Incorrect employee, attendance, product, price, or transaction records.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Apply input validation, confirmation screens, and authorized record reviews. Use test data during development.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">07</span><h3>Unauthorized access or modification</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Users may access or alter restricted records.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Implement secure login, role-based permissions, session controls, and audit logs.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">08</span><h3>Data loss</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Files or records may be lost through errors or system issues.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Use GitHub, maintain document and database backups, and prepare a recovery procedure.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">09</span><h3>Limited budget or unexpected expenses</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Costs may exceed the ₱3,410 estimate.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Prioritize free tools, record expenses, review purchases, and use the contingency fund only for documented needs.</p></div></article></div></section><section class="slide risk-detail-slide" data-title="Possible Risks (3/3)"><header class="slide-head"><span class="slide-kicker">12</span><h2>Possible Risks and Proposed Solutions (3/3)</h2><span class="part-tag">Risk assessment and mitigation measures from the project proposal</span></header><div class="risk-detail-grid"><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">10</span><h3>Free hosting or database limitations</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Storage, reliability, or security may be inadequate.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Evaluate service limits and backup options. Seek approval before using paid services.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">11</span><h3>Low user adoption</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Employees may find the system unfamiliar or difficult.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Provide a simple responsive interface, role-based accounts, orientation, and user feedback.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">12</span><h3>Device or browser compatibility</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">The system may not work properly on available devices.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Test common desktop and mobile browsers and resolve major compatibility issues.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">13</span><h3>Delayed client feedback</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Unavailable representatives may delay validation and testing.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Schedule consultations early, set feedback deadlines, prepare questions, and document decisions.</p></div></article><article class="risk-detail-card"><div class="risk-detail-top"><span class="risk-number">14</span><h3>Insufficient testing</h3></div><span class="risk-label">POSSIBLE RISK</span><p class="risk-description">Undetected errors may affect system reliability.</p><div class="risk-solution"><span class="solution-label">PROPOSED SOLUTION</span><p>Test attendance, calculations, discounts, payments, permissions, transaction reviews, and audit logs before pilot implementation.</p></div></article></div></section>
+<section class="slide" data-title="PMIS Workspace"><header class="slide-head"><span class="slide-kicker">13</span><h2>PMIS Workspace: ClickUp</h2><span class="part-tag">Evidence of project planning, task coordination, and progress monitoring</span></header>
+<div class="pmis-showcase">
+<div class="pmis-visuals">
+<div class="image-frame pmis-image" data-caption="ClickUp dashboard — project overview and task distribution" data-gallery="all" data-zoomable=""><img alt="ClickUp PROJMAN dashboard overview" loading="lazy" src="assets/pmis-dashboard.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Dashboard</span></div>
+<div class="image-frame pmis-image" data-caption="ClickUp task list — assigned activities and task statuses" data-gallery="all" data-zoomable=""><img alt="ClickUp task list screenshot" loading="lazy" src="assets/apdx4.png"/><span class="image-hint">Click to zoom</span><span class="appendix-label">Task List</span></div>
+</div>
+<div class="pmis-explain">
+<div class="panel panel--accent"><h3>How the team uses ClickUp</h3><ul class="bullet-list"><li>Organizes project activities based on the WBS.</li><li>Assigns tasks and responsibilities to the five members.</li><li>Sets deadlines and monitors task status and progress.</li><li>Shares project files and supports team updates.</li></ul></div>
+<div class="panel"><h3>Why it matters</h3><p class="panel-desc">ClickUp gives the team a shared workspace to coordinate work, follow deadlines, monitor progress, and maintain accountability.</p></div>
+</div>
+</div>
+</section>
+<section class="slide" data-title="Expected Benefits"><header class="slide-head"><span class="slide-kicker">14</span><h2>Expected Benefits</h2><span class="part-tag">Expected outcomes based on the proposed system features</span></header>
+<div class="content-grid cols-3 benefit-grid benefit-grid--revised"><div class="panel panel--compact"><h3>IGLÚ Branch Owners</h3><p class="panel-desc">Monitor sales, employee attendance, and branch operations through centralized records.</p></div><div class="panel panel--compact"><h3>Head Office Management</h3><p class="panel-desc">Consolidate information from branches and review operational records.</p></div><div class="panel panel--compact"><h3>Employees</h3><p class="panel-desc">Maintain attendance records and access permitted work-related information.</p></div><div class="panel panel--compact"><h3>Customers</h3><p class="panel-desc">May benefit from more organized transaction processing and checkout calculations.</p></div><div class="panel panel--compact"><h3>Business Operations</h3><p class="panel-desc">Support coordination among branches through centralized operational information.</p></div></div>
+<p class="benefit-footnote">These are expected benefits. Actual results will depend on accurate data entry, proper implementation, user adoption, connectivity, and testing.</p>
+</section>
+<section class="slide" data-title="Conclusion"><header class="slide-head"><span class="slide-kicker">15</span><h2>Conclusion</h2><span class="part-tag">A practical proposal for more organized multi-branch operations</span></header>
+<div class="statement-block statement-block--stacked">
+<p>IgluHub proposes a centralized platform for managing employee records, attendance, cashier transactions, and branch information.</p>
+<p>Role-based access, data validation, audit logs, dashboards, and reports are intended to support information consistency, monitoring, and accountability.</p>
+<p class="conclusion-final">Its successful implementation will depend on validated business requirements, appropriate development and testing, reliable connectivity, secure configuration, and cooperation between the project team and IGLÚ.</p>
+</div></section>
+<section class="slide" data-title="References"><header class="slide-head"><span class="slide-kicker">16</span><h2>References</h2><span class="part-tag">Sources cited in the approved project proposal</span></header>
+<div class="content-grid cols-2 ref-grid">
+<ul class="ref-list">
+<li>Aswintama, P., Haryanto, E., &amp; Setyawan, R. A. (2025). Implementation of role-based access control, multi tenancy and audit logging in a single sign-on system. <em>Jurnal Mandiri IT, 14</em>(1), 119–128. <a href="https://ejournal.isha.or.id/index.php/Mandiri/article/view/441" rel="noopener" target="_blank">Source</a></li>
+<li>Department of Trade and Industry. (2024, June 26). <em>DTI pilots “Tindahan Mo, e-Level Up Mo!” to digitalize sari-sari stores in the Philippines.</em> <a href="https://www.dti.gov.ph/dti-news-archived/dti-dti-pilots-tindahan-mo-e-level-up-mo-digitalize-sari-sari-stores-philippines" rel="noopener" target="_blank">Source</a></li>
+<li>Mardhatillah, E., Erianda, A., &amp; Hadi, R. (2026). Arsitektur sistem point of sale (POS) multi-cabang berbasis web untuk perusahaan ritel terdistribusi: Studi kasus pada Raffi Collection. <em>JITSI: Jurnal Ilmiah Teknologi Sistem Informasi, 7</em>(2), 160–166. <a href="https://doi.org/10.62527/jitsi.7.2.606" rel="noopener" target="_blank">https://doi.org/10.62527/jitsi.7.2.606</a></li>
+</ul>
+<ul class="ref-list">
+<li>Oikawa, K., Iwasaki, F., Sawada, Y., &amp; Shinozaki, S. (2025). <em>Unintended consequences of business digitalization among MSMEs during the COVID-19 pandemic: The case of the Philippines.</em> Asian Development Bank Institute. <a href="https://doi.org/10.56506/BQKT2599" rel="noopener" target="_blank">https://doi.org/10.56506/BQKT2599</a></li>
+<li>Sagala, G. H., &amp; Őri, D. (2024). Toward SMEs digital transformation success: A systematic literature review. <em>Information Systems and e-Business Management, 22</em>(4), 667–719. <a href="https://doi.org/10.1007/s10257-024-00682-2" rel="noopener" target="_blank">https://doi.org/10.1007/s10257-024-00682-2</a></li>
+</ul></div></section>
+<section class="slide slide--appendix" data-title="Appendices">
+<header class="slide-head">
+<span class="slide-kicker">17</span>
+<h2>Appendices</h2>
+<span class="part-tag">Proof of collaboration, communication, and PMIS usage</span>
+</header>
+<div class="appendix-grid">
+<div class="image-frame image-frame--sm" data-caption="Appendix A · Team presentation rehearsal via video call" data-gallery="appendix" data-zoomable="">
+<img alt="Team video call rehearsal screenshot" loading="lazy" src="assets/apdx1.png"/>
+<span class="appendix-label">A · Rehearsal Call</span>
+</div>
+<div class="image-frame image-frame--sm" data-caption="Appendix B · Team presenting the title slide during a video call" data-gallery="appendix" data-zoomable="">
+<img alt="Team video call presenting title slide" loading="lazy" src="assets/apdx2.png"/>
+<span class="appendix-label">B · Title Presentation</span>
+</div>
+<div class="image-frame image-frame--sm" data-caption="Appendix C · Team communication and task assignment thread" data-gallery="appendix" data-zoomable="">
+<img alt="Team chat screenshot about task assignments" loading="lazy" src="assets/apdx3.png"/>
+<span class="appendix-label">C · Team Chat</span>
+</div>
+<div class="image-frame image-frame--sm" data-caption="Appendix D · ClickUp PMIS task list" data-gallery="appendix" data-zoomable="">
+<img alt="ClickUp task list screenshot" loading="lazy" src="assets/apdx4.png"/>
+<span class="appendix-label">D · ClickUp Task List</span>
+</div>
+<div class="image-frame image-frame--sm" data-caption="Appendix E · ClickUp PROJMAN dashboard overview" data-gallery="appendix" data-zoomable="">
+<img alt="ClickUp dashboard screenshot" loading="lazy" src="assets/apdx5.png"/>
+<span class="appendix-label">E · ClickUp Dashboard</span>
+</div>
+<div class="image-frame image-frame--sm" data-caption="Appendix F · Team working session" data-gallery="appendix" data-zoomable="">
+<img alt="Team working session photo" loading="lazy" src="assets/apdx6.png"/>
+<span class="appendix-label">F · Team at Work</span>
+</div>
+</div>
+</section>
+<section class="slide slide--title slide--closing" data-title="Thank You"><div class="bg-grid"></div><div class="title-content">
+<img alt="IGLÚ logo" class="title-logo title-logo--sm" src="assets/logo.png"/>
+<p class="eyebrow">IGLUHUB · PROJECT MANAGEMENT INFORMATION SYSTEMS</p><h1>Thank You</h1>
+<p class="subtitle">Questions &amp; Discussion</p>
+<p class="closing-statement">Organizing records. Supporting monitoring. Strengthening accountability.</p>
+<p class="closing-names">Soguilon · Fajardo · Garcia · Ignacio · Recapor</p>
+</div></section>
+</div>
+<!-- NAVIGATION BAR -->
+<nav aria-label="Presentation controls" class="navbar">
+<button aria-label="Previous slide" class="nav-btn" id="prevBtn">
+<svg height="20" viewbox="0 0 24 24" width="20"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
+</button>
+<div class="nav-counter"><span id="currentSlideNum">1</span><span class="nav-sep">/</span><span id="totalSlideNum">17</span></div>
+<button aria-label="Next slide" class="nav-btn" id="nextBtn">
+<svg height="20" viewbox="0 0 24 24" width="20"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
+</button>
+<div class="nav-divider"></div>
+<button aria-label="Slide overview" class="nav-btn" id="overviewBtn">
+<svg height="18" viewbox="0 0 24 24" width="18"><rect fill="currentColor" height="7" rx="1" width="7" x="3" y="3"></rect><rect fill="currentColor" height="7" rx="1" width="7" x="14" y="3"></rect><rect fill="currentColor" height="7" rx="1" width="7" x="3" y="14"></rect><rect fill="currentColor" height="7" rx="1" width="7" x="14" y="14"></rect></svg>
+</button>
+<button aria-label="Toggle fullscreen" class="nav-btn" id="fullscreenBtn">
+<svg height="18" viewbox="0 0 24 24" width="18"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"></path></svg>
+</button>
+</nav>
+<!-- OVERVIEW PANEL -->
+<div aria-hidden="true" class="overview-panel" id="overviewPanel">
+<div class="overview-head">
+<h3>Slide Overview</h3>
+<button aria-label="Close overview" class="icon-btn" id="closeOverview">×</button>
+</div>
+<div class="overview-grid" id="overviewGrid"></div>
+</div>
+<!-- IMAGE VIEWER MODAL -->
+<div aria-hidden="true" class="viewer" id="viewer">
+<div class="viewer-top">
+<span class="viewer-caption" id="viewerCaption"></span>
+<button aria-label="Close image viewer" class="icon-btn" id="viewerClose">×</button>
+</div>
+<div class="viewer-stage" id="viewerStage">
+<img alt="" id="viewerImg" src=""/>
+</div>
+<div class="viewer-controls">
+<button aria-label="Previous image" class="vc-btn" id="vcPrev">‹</button>
+<button aria-label="Zoom out" class="vc-btn" id="vcZoomOut">−</button>
+<button aria-label="Fit to screen" class="vc-btn" id="vcFit">Fit</button>
+<button aria-label="Reset zoom" class="vc-btn" id="vcReset">1:1</button>
+<button aria-label="Zoom in" class="vc-btn" id="vcZoomIn">+</button>
+<button aria-label="Next image" class="vc-btn" id="vcNext">›</button>
+</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
